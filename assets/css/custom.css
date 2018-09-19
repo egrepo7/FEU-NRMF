@@ -1,0 +1,93 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* === GLOBAL ==== */
+
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #333;
+    height: 100%;
+    /* overflow-x: hidden; */
+    background: url('../img/cream_pixels.png') top left repeat;
+    background: #f2f2f2;
+}
+
+h1, h2 {
+    margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+nav {
+    border-bottom: 5px solid #73a10b;
+}
+
+section {
+    margin: 30px 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-success {
+    background: #73a10b;
+}
+/*************** LAYOUT *****************/
+
+.hero {
+    min-height: 400px;
+    background: white;
+    background: url('../img/medical_lab_tech.jpg');
+    background-size: cover;
+    opacity: 0.9;
+    padding: 20px 0;
+}
+
+.home-menu {
+    /* background: white; */
+    padding: 50px 0 120px;
+    margin-top: -40px;
+}
+
+.home-menu h4 {
+    padding: 10px 5px;
+    margin-bottom: 0;
+    background: white;
+    border-bottom: 3px solid #e48124;
+}
+
+.home-menu p {
+    padding: 10px 5px;
+}
+
+.home-menu-blurb {
+    background: white;
+    padding: 15px;
+    height: 250px;
+}
+
+.home-menu-blurb button {
+    margin: 10px 5px;
+}
+
+footer {
+    background: #73a10b;
+}
