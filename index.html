@@ -41,27 +41,54 @@
                     <div class="collapse navbar-collapse" id="myTogglerNav">
                         <div class="navbar-nav">
                             <a href="#" class="nav-item nav-link"><i class="fas fa-home"></i></a>
-                            <a href="#" class="nav-item nav-link">About</a>
-                            <a href="#" class="nav-item nav-link">News</a>
-                            <a href="#" class="nav-item nav-link">Reunions</a>
-                            <a href="#" class="nav-item nav-link">Membership</a>
-                            <a href="#" class="nav-item nav-link">Awards</a>
                             <div href="#" class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a href="#" class="nav-link dropdown-toggle" id="NavDropAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="NavDropAbout">
+                                    <a class="dropdown-item" href="#">Who We Are</a>
+                                    <a class="dropdown-item" href="#">Executive Team</a>
+                                    <a class="dropdown-item" href="#">Coordinators</a>
+                                </div><!-- end NavDropAbout -->
+                            </div><!-- end nav-item drop -->
+                            <div href="#" class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="NavDropAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Announcements
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="NavDropAbout">
+                                    <a class="dropdown-item" href="announcements.html">Latest News</a>
+                                    <a class="dropdown-item" href="#">Reunions</a>
+                                    <a class="dropdown-item" href="#">Events</a>
+                                </div><!-- end NavDropAbout -->
+                            </div><!-- end nav-item drop -->
+                            <a href="#" class="nav-item nav-link">Membership</a>
+                            <div href="#" class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="NavDropScholarships" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Scholarships
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="NavDropScholarships">
+                                    <a class="dropdown-item" href="#">Sponsor / Apply</a>
+                                    <a class="dropdown-item" href="#">Past Awards</a>
+                                </div><!-- end NavDropScholarships -->
+                            </div><!-- end nav-item drop -->
+                            <div href="#" class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="NavDropMore" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     More
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-menu" aria-labelledby="NavDropMore">
                                     <a class="dropdown-item" href="#">Gallery</a>
                                     <a class="dropdown-item" href="#">Continuing Education</a>
                                     <a class="dropdown-item" href="#">Community Outreach</a>
-                                  </div>
-                                </div>
+                                </div><!-- end NavDropMore -->
+                            </div><!-- end nav-item drop -->
                             <a href="#" class="nav-item nav-link">Contact Us</a>
                             
 
                         </div><!-- navbar -->
                     </div><!-- collapse -->
-                </div>
+
+                
+                </div><!-- end container -->
             </nav><!-- navbar -->     
 
     </header><!-- endHeader -->
@@ -75,17 +102,16 @@
     
         </section><!-- endSection -->
 
-        <!-- <section>
-            <h1>Welcome!</h1>
-            <h3>Our Mission / Philosphy</h3>
-            <h4>To unite all graduates of the FEU-NRMF School of medical Technology into one cohesive group to further our profession and help in the building of a healthy world</h4>
-        </section> -->
+        <section id="missionState">
+            <h3>Our Mission and Philosphy:</h3>
+            <h4 class="lead">To unite all graduates of the FEU-NRMF School of medical Technology into one cohesive group to further our profession and help in the building of a healthy world</h4>
+        </section>
 
         <section class="home-menu">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="d-flex flex-column home-menu-blurb">
-                        <h4>News</h4>
+                        <h4><i class="far fa-newspaper"></i> News </h4>
                         <p>Learn about the latest announcements, reunions, and other news in our society.</p>
                         <button class="mt-auto btn btn-success">Read More</button>
                     </div><!-- home-menu-blurb -->
@@ -93,7 +119,7 @@
 
                 <div class="col-sm-4">
                     <div class="d-flex flex-column home-menu-blurb">
-                        <h4>Become a Member</h4>
+                        <h4><i class="far fa-id-card"></i> Become a Member</h4>
                         <p>Are you new and looking to join the alumni society? Find out how to become a member today!</p>
                         <button class="mt-auto btn btn-success">Read More</button>
                     </div><!-- home-menu-blurb -->
@@ -101,7 +127,7 @@
 
                 <div class="col-sm-4">
                     <div class="d-flex flex-column home-menu-blurb">
-                        <h4>Awards</h4>
+                        <h4><i class="fas fa-award"></i> Awards</h4>
                         <p>Help prepare the future medical technologists with sponsorships.</p>
                         <button class="mt-auto btn btn-success">Read More</button>
                     </div><!-- home-menu-blurb -->
@@ -116,48 +142,75 @@
 
     <footer>
         <div class="container">
-            <ul>
-                <li>
-                    <h3>About FEU-NRMF</h3>
-                    <ul>
-                        <li><a href="#">Who We Are</a></li>
-                        <li><a href="#">Officers</a></li>
-                        <li><a href="#">Coordinators</a></li>
-                    </ul>
-                </li> 
-                <li>
-                    <h3>Announcements</h3>
-                    <ul>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Reunions</a></li>
-                    </ul>
-                </li> 
-                <li>
-                    <h3>Membership</h3>
-                    <ul>
-                        <li><a href="#">Registeration</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Scholarships</h3>
-                    <ul>
-                        <li><a href="#">Applications</a></li>
-                        <li><a href="#">Make a Pledge</a></li>
-                        <li><a href="#">Past Awards / Sponsors</a></li>
-                    </ul>
-                </li> 
-                <li>
-                    <h3>More</h3>
-                    <ul>
-                        <li><a href="#">Media Gallery</a></li>
-                        <li><a href="#">Community Outreach</a></li>
-                        <li><a href="#">Continuing Education</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="footerNav">
+                        <h3 class="footerNavHdg">About FEU-NRMF</h3>
+                        <ul>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Officers</a></li>
+                            <li><a href="#">Coordinators</a></li>
+                        </ul>
+                    </div><!-- footerNav -->
+                </div><!-- end col -->
+                
+                <div class="col-sm-2">
+                    <div class="footerNav">
+                        <h3 class="footerNavHdg">Announcements</h3>
+                        <ul>
+                            <li><a href="#">Latest News</a></li>
+                            <li><a href="#">Reunions</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div><!-- footerNav -->
+                </div><!-- end col -->
+
+                <div class="col-sm-2">
+                    <div class="footerNav">
+                        <h3 class="footerNavHdg">Membership</h3>
+                        <ul>
+                            <li><a href="#">Registration</a></li>
+                        </ul>
+                    </div><!-- footerNav -->
+                </div><!-- end col -->
+
+                <div class="col-sm-2">
+                    <div class="footerNav">
+                        <h3 class="footerNavHdg">Scholarships</h3>
+                        <ul>
+                            <li><a href="#">Sponsor / Apply</a></li>
+                            <li><a href="#">Past Awards</a></li>
+                        </ul>
+                    </div><!-- footerNav -->
+                </div><!-- end col -->
+
+                <div class="col-sm-2">
+                    <div class="footerNav">
+                        <h3 class="footerNavHdg">More</h3>
+                        <ul>
+                            <li><a href="#">Media Gallery</a></li>
+                            <li><a href="#">Community Outreach</a></li>
+                            <li><a href="#">Continuing Education</a></li>
+                        </ul>
+                    </div><!-- footerNav -->
+                </div><!-- end col -->
+
+            </div><!-- end row -->
+            
+        </div><!-- end container -->
+
     </footer><!-- end footer -->
 
+    <div class="footerCopyright">
+            <div class="container">
+                <p>&copy; 2018 Grepo Design | All Rights Reserved | FEU-NRMF International Alumni Society | feuinternationalmedtech.org</p>
+                <!-- <ul>
+                    <li  class="ml-auto">
+                        <a href="https://www.facebook.com/FEUNRMFmtias/"><i class="fab fa-facebook fa-lg"></i></a>
+                    </li>
+                </ul> -->
+            </div><!-- end container -->
+    </div><!-- footer copy -->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

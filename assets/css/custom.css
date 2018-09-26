@@ -55,10 +55,23 @@ section {
 .hero {
     min-height: 400px;
     background: white;
-    background: url('../img/medical_lab_tech.jpg');
+    background: linear-gradient(
+        rgba(20,20,20, .4), 
+        rgba(20,20,20, .4)),
+        url('../img/feu-pledge.jpg');
     background-size: cover;
     opacity: 0.9;
     padding: 20px 0;
+}
+
+.hero h1,
+.hero h2 {
+    color: white;
+}
+
+#missionState {
+    background: white;
+    padding: 40px;
 }
 
 .home-menu {
@@ -90,4 +103,110 @@ section {
 
 footer {
     background: #73a10b;
+    color: white;
+    font-weight: 300;
+    padding: 10px 0 50px;
+}
+
+footer a {
+    color: white;
+}
+
+.footerNav {
+    padding-top: 15px;
+    margin: 0;
+}
+
+.footerNav ul,
+.footerCopyright li {
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.footerNavHdg {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+
+.footerCopyright {
+    background: #e48124;
+    color: white;
+}
+
+.footerCopyright p {
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.footerCopyright a {
+    color: white;
+}
+
+.footerCopyright p,
+.footerCopyright ul {
+    text-align: center;
+}
+
+.feature-image {	
+	display: table;
+	width: 100%;
+}
+
+.feature-image-default {
+	background: url('../img/stuff-feature.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image-default-alt {
+	background: url('../img/hipster-stuff.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+
+
+
+/******** ANNOUNCEMENT STYLES ********/
+
+.post {
+    position: relative;
+    border: solid 1px #ddd;
+    background: white;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.post-image {
+	height: auto;
+}
+
+.post header,
+.post .post-excerpt {
+    padding: 20px;
+}
+
+.post header h1,
+.post header h3 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+.post header h1 {
+    font-size: 24px;
+}
+
+.post-details {
+    font-size: 12px;
+    width: 90%;
 }
